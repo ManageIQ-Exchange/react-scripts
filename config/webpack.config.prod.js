@@ -180,6 +180,10 @@ module.exports = {
               compact: true,
             },
           },
+          {
+            test: /\.md$/,
+            use: 'raw-loader'
+          },
           // The notation here is somewhat confusing.
           // "postcss" loader applies autoprefixer to our CSS.
           // "css" loader resolves paths in CSS and adds assets as dependencies.
@@ -267,7 +271,7 @@ module.exports = {
 		      'GALAXY_API_VERSION': JSON.stringify(process.env.GALAXY_API_VERSION),
 		      'GITHUB_OAUTH_ID': JSON.stringify(process.env.GITHUB_OAUTH_ID),
 		      'GITHUB_REDIRECTUI': JSON.stringify(process.env.GITHUB_REDIRECTUI),
-		      'TEST_ENV': JSON.stringify("test")			
+		      'TEST_ENV': JSON.stringify("test")
 		    }),
     // Makes some environment variables available in index.html.
     // The public URL is available as %PUBLIC_URL% in index.html, e.g.:
