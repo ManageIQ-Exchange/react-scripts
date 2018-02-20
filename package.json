@@ -9,8 +9,8 @@
         "rawSpec": "^1.1.0",
         "spec": ">=1.1.0 <2.0.0",
         "type": "range"
-      },
-      "/home/christopher/files/redhat/manageiq-exchange-frontend"
+      }
+      
     ]
   ],
   "_from": "react-scripts@>=1.1.0 <2.0.0",

@@ -85,8 +85,8 @@ function getClientEnvironment(publicUrl) {
         // This should only be used as an escape hatch. Normally you would put
         // images into the `src` and `import` them in code to get their paths.
         PUBLIC_URL: publicUrl,
-	GALAXY_API_BACKEND: process.env.GALAXY_API_BACKEND,
-	GALAXY_API_VERSION: process.env.GALAXY_API_VERSION,
+  EXCHANGE_API_BACKEND: process.env.GALAXY_API_BACKEND,
+	EXCHANGE_API_VERSION: process.env.GALAXY_API_VERSION,
 	GITHUB_OAUTH_ID: process.env.GITHUB_OAUTH_ID,
 	GITHUB_REDIRECTUI: process.env.GITHUB_REDIRECTUI,
 	TEST_ENV: 'test'
